@@ -85,13 +85,16 @@ a{
 }
 
 /* Hero Section */
+.hero{
+    text-align: center;
+}
+
 .hero-title{
     background-color: var(--background-black);
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 
