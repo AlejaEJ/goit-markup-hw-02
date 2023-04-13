@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"/>
+    
     <title>Portafolio</title>
   </head>
 
   <body>
     <!--Header section-->
-    <header>
+    <header class="page-header">
       <nav>
         <!--Logo-->
         <a class="logo" href="./index.html">WebStudio</a>
         <!--Menu-->
-        <ul class="nav-menu list">
-          <li><a class="page " href="./index.html">Estudio</a></li>
-          <li><a class="page current" href="./portafolio.html">Portafolio</a></li>
-          <li><a class="page " href="">Contactos</a></li>
+        <ul class="nav-menu-list">
+          <li><a class="page" href="./index.html">Estudio</a></li>
+          <li><a class="page-current" href="./portafolio.html">Portafolio</a></li>
+          <li><a class="page" href="">Contactos</a></li>
         </ul>
       </nav>
       <!--Contacts-->
-      <ul class="contacts-menu list">
+      <ul class="contacts-menu-list">
         <li><a class="item" href="">info@devstudio.com</a></li>
         <li><a class="item" href="">+52 55 5529 6000</a></li>
       </ul>
@@ -31,9 +38,9 @@
     <!--Main Content Section-->
     <main>
         <!-- Menu Tabs-->
-        <section class="section portfolio">
+        <section class="section-portfolio">
             <ul class="list">
-                <li><button class="button current" type="button">Todo</button></li>
+                <li><button class="button-current" type="button">Todo</button></li>
                 <li><button class="button" type="button">Sitios-Web</button></li>
                 <li><button class="button" type="button">Aplicaciones</button></li> 
                 <li><button class="button" type="button">Diseño</button></li>
@@ -122,12 +129,12 @@
     </main>
       
       <!--Footer section-->
-      <footer>
-        <a href="">WebStudio</a>
+      <footer class="page-footer">
+        <a class="logo" href="">WebStudio</a>
         <address>
           <ul>
             <li>
-              <a
+              <a class="contact"
                 href="https://www.google.com/maps/place/Calz.+Ticom%C3%A1n+50,+La+Laguna+Ticoman,+Gustavo+A.+Madero,+07340+Ciudad+de+México,+CDMX,+México"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -135,11 +142,11 @@
             </li>
   
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="contact-channel" href="mailto:info@example.com">info@example.com</a>
             </li>
   
             <li>
-              <a href="tel:+525555296000">+52 55 5529 6000</a>
+              <a class="contact-channel" href="tel:+525555296000">+52 55 5529 6000</a>
             </li>
           </ul>
         </address>
